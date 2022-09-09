@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(rgb(177, 194, 211), rgb(236, 217, 217),rgb(177, 194, 211), rgb(236, 217, 217));
+    background-color: rgb(177, 194, 211);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    cursor: pointer;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+
+#foto-perfil {
+    border-radius: 0px 25px 0px 25px;
+}
+
+#idiomas {
+    text-align: end;
+}
+
+#idiomas li{
+    display: inline-flex;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.current-language {
+    font-weight: 600;
+}
+
+.beta{
+    display: none;
+}
