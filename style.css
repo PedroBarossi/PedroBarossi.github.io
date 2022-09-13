@@ -1,4 +1,5 @@
 body {
+    font-size: 1.1rem;
     background-image: linear-gradient(rgb(177, 194, 211), rgb(236, 217, 217),rgb(177, 194, 211), rgb(236, 217, 217));
     background-color: rgb(177, 194, 211);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,15 +18,15 @@ a:visited {
     color: black;
 }
 
-#foto-perfil {
+#profile-picture {
     border-radius: 0px 25px 0px 25px;
 }
 
-#idiomas {
+#languages {
     text-align: end;
 }
 
-#idiomas li{
+#languages li{
     display: inline-flex;
     list-style: none;
     vertical-align: middle;
@@ -35,6 +36,15 @@ a:visited {
     font-weight: 600;
 }
 
+.article_title-italic {
+    font-style: italic;
+}
+
+.article_text {
+    margin-left: 2rem;
+}
+
 .beta{
     display: none;
 }
+
