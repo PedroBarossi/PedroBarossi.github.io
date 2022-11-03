@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/global.css">
+    <script src="/script/components/Language.js" defer></script>
     <title>Currículo Pedro Barossi</title>
 </head>
 <body>
@@ -12,13 +13,13 @@
         <nav id="languages">
             <ul>
                 <li><img src="/translating.png" alt="Traducir"></li>
-                <li><a href="/index.html"  target="_self">Português</a></li>
+                <add-lang topage="index" display="Português"></add-lang>
                 <li>-</li>
-                <li><a href="/en.html" target="_self">English</a></li>
+                <add-lang topage="en" display="English"></add-lang>
                 <li>-</li>
-                <li class="current-language">Español</li>
+                <add-lang current="true" display="Español"></add-lang>
                 <li>-</li>
-                <li><a href="/jp.html" target="_self">日本語</a></li>
+                <add-lang topage="jp" display="日本語"></add-lang>
             </ul>
         </nav>
         <img id="profile-picture" src="/profquadrada.png" alt="Foto">
