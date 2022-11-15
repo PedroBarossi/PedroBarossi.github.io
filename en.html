@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/global.css">
-    <script src="/script/components/Language.js" defer></script>
+    <script src="/script/components/LanguageBar.js" defer></script>
+    <script src="/script/components/Graduation.js" defer></script>
     <title>Resume Pedro Barossi</title>
 </head>
 <body>
@@ -36,20 +37,16 @@
     <main>
         <section>
             <h2>EDUCATION</h2>
-            <article>
-                <h3>UNINASSAU, Camaragibe-Brazil (Distance Learning) - <span class="article_title-italic">Associate Degree</span></h3>
-                <div class="article_text">
-                    <div>Systems Development and Analysis</div>
-                    JANUARY 2021-IN PROGRESS
-                </div>
-            </article>
-            <article>
-                <h3>Centro Universitário FMU, Sao Paulo-Brazil - <span class="article_title-italic">Bachelor's Degree</span></h3>
-                <div class="article_text">
-                    <div>Music Composition</div>
-                    AUGUST 2007 - DECEMBER 2012
-                </div>
-            </article>
+            <add-grad
+            name="Systems Development and Analysis"
+            level="Associate Degree"
+            institute="UNINASSAU, Camaragibe-Brazil (Distance Learning)"
+            period="JANUARY 2021 - IN PROGRESS"></add-grad>
+            <add-grad
+            name="Music Composition"
+            level="Bachelor's Degree"
+            institute="Centro Universitário FMU, Sao Paulo-Brazil"
+            period="AUGUST 2007 - DECEMBER 2012"></add-grad>
         </section>
         <section>
             <h2>COURSES</h2>

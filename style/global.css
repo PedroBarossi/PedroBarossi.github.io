@@ -36,14 +36,6 @@ li{
     font-weight: 600;
 }
 
-.article_title-italic {
-    font-style: italic;
-}
-
-.article_text {
-    margin-left: 2rem;
-}
-
 .beta{
     display: none;
 }

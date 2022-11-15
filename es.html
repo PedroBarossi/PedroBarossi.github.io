@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/global.css">
-    <script src="/script/components/Language.js" defer></script>
+    <script src="/script/components/LanguageBar.js" defer></script>
+    <script src="/script/components/Graduation.js" defer></script>
     <title>Currículo Pedro Barossi</title>
 </head>
 <body>
@@ -35,20 +36,16 @@
     <main>
         <section>
             <h2>FORMACIÓN</h2>
-            <article>
-                <h3>UNINASSAU, Camaragibe-Brasil (EAD) - <span class="article_title-italic">Educación Superior Tecnológica</span></h3>
-                <div class="article_text">
-                    <div>Análisis y Desarrollo de Sistemas</div>
-                    ENERO DE 2021 - CURSANDO
-                </div>
-            </article>
-            <article>
-                <h3>Centro Universitário FMU, Sao Paulo-Brasil - <span class="article_title-italic">Bachillerato</span></h3>
-                <div class="article_text">
-                    <div>Música (Composición)</div>
-                    AGOSTO DE 2007 - DICIEMBRE DE 2012
-                </div>
-            </article>
+            <add-grad
+            name="Análisis y Desarrollo de Sistemas"
+            level="Educación Superior Tecnológica"
+            institute="UNINASSAU, Camaragibe-Brasil (EAD)"
+            period="ENERO DE 2021 - CURSANDO"></add-grad>
+            <add-grad
+            name="Música-Composición"
+            level="Bachillerato"
+            institute="Centro Universitário FMU, Sao Paulo-Brasil"
+            period="AGOSTO DE 2007 - DICIEMBRE DE 2012"></add-grad>
         </section>
         <section>
             <h2>CURSOS</h2>

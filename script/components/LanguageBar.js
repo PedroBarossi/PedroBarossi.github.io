@@ -1,4 +1,4 @@
-class Language extends HTMLElement {
+class LanguageBar extends HTMLElement {
     constructor() {
         super();
 
@@ -34,32 +34,32 @@ class Language extends HTMLElement {
     style() {
         const style = document.createElement("style");
         style.textContent = `
-        li{
-            display: inline-flex;
-            list-style: none;
-            vertical-align: middle;
-        }
+            li{
+                display: inline-flex;
+                list-style: none;
+                vertical-align: middle;
+            }
 
-        a {
-            cursor: pointer;
-            color: black;
-        }
-        
-        a:hover {
-            font-weight: bold;
-        }
-        
-        a:visited {
-            color: black;
-        }
+            a {
+                cursor: pointer;
+                color: black;
+            }
+            
+            a:hover {
+                font-weight: bold;
+            }
+            
+            a:visited {
+                color: black;
+            }
 
-        .current-language {
-            font-weight: 600;
-        }
+            .current-language {
+                font-weight: 600;
+            }
         `
 
         return style;
     }
 }
 
-customElements.define("add-lang", Language);
+customElements.define("add-lang", LanguageBar);
